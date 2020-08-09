@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <style type="text/css">
+      pre { font-size: 0.8rem; }
+    </style>
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <form method="GET" action="/query">
+      <label for="tag">Tag</label>
+      <input type="text" placeholder="enter tag" name="tag" id="tag" value="<%=query.tag%>">
+      <label for="offset">Offset</label>
+      <input type="text" placeholder="offset" name="offset" id="offset" value="<%=query.offset%>">
+      <label for="max">Max</label>
+      <input type="text" placeholder="max" name="max" id="max" value="<%=query.max%>">
+      <button name="submit">Run Query</button>
+    </form>
+    <h2>Some randomly selected tags to try:</h2>
+    <p><% for (let i=0; i<tags.length; i++) { %><%=tags[i]%>, <% } %></p>
+    <% if (result) { %>
+      <h2>Query Result</h2>
+      <pre>
+<%= JSON.stringify(result, null, 2) %>
+      </pre>
+    <% } %>
+  </body>
+</html>
