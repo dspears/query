@@ -45,7 +45,7 @@ Run the following:
 - (wait a minute for MySQL to come up)
 - Try out http://localhost:8080 for phpmyadmin username: feedfm, password: C00lVoyage!
 - npm run seed (this creates the db tables and seeds them with data)
-- npm run
+- npm start
 - Go to http://localhost:3000
 
 You should see a simple UI that lets you run a query, something like this:
