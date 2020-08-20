@@ -1,4 +1,4 @@
-# feed.fm Query
+# DB Query
 
 ## About
 
@@ -28,13 +28,13 @@ These numbers could easily be adjusted in the seed files.
 - Create a .env file in top level dir with the following contents:
 
 ```Bash
-APP_NAME=feedfmQuery
+APP_NAME=dbQuery
 APP_ENV=local
 
 DB_HOST=db
 DB_PORT=3306
-DB_DATABASE=feedfm
-DB_USERNAME=feedfm
+DB_DATABASE=dbquery
+DB_USERNAME=dbquery
 DB_PASSWORD=C00lVoyage!
 ```
 
@@ -43,7 +43,7 @@ Run the following:
 - npm install
 - docker-compose up -d
 - (wait a minute for MySQL to come up)
-- Try out http://localhost:8080 for phpmyadmin username: feedfm, password: C00lVoyage!
+- Try out http://localhost:8080 for phpmyadmin username: dbquery, password: C00lVoyage!
 - npm run seed (this creates the db tables and seeds them with data)
 - npm start
 - Go to http://localhost:3000

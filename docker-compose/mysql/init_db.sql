@@ -1,6 +1,6 @@
 -- MySQL dump 10.13  Distrib 5.7.26, for osx10.10 (x86_64)
 --
--- Host: localhost    Database: feedfm
+-- Host: localhost    Database: dbquery
 -- ------------------------------------------------------
 -- Server version	5.7.26
 
@@ -19,7 +19,7 @@
 -- Current Database: `zeropulpl`
 --
 
-CREATE DATABASE /*!32312 IF NOT EXISTS*/ `feedfm` /*!40100 DEFAULT CHARACTER SET utf8 */;
+CREATE DATABASE /*!32312 IF NOT EXISTS*/ `dbquery` /*!40100 DEFAULT CHARACTER SET utf8 */;
 
-USE `feedfm`;
+USE `dbquery`;
 

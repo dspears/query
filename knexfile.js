@@ -3,9 +3,9 @@ module.exports = {
     client: 'mysql',
     connection: {
       host: 'localhost',
-      user: 'feedfm',
+      user: 'dbquery',
       password: 'C00lVoyage!',
-      database: 'feedfm'
+      database: 'dbquery'
     },
     debug: true
   }
