@@ -23,7 +23,7 @@ These numbers could easily be adjusted in the seed files.
 
 ## If you'd like to actually try this out:
 
-- install knex cli globally:  npm instal -g knex
+- install knex cli globally:  npm install -g knex
 
 - Create a .env file in top level dir with the following contents:
 
